@@ -15,6 +15,8 @@ def index():
 @app.route("/uji-validitas", methods=['POST'])
 def uji_validitas():
     filepath = request.form.get('filepath')
+    print("alamat file")
+    print(filepath)
     A = request.form.get('a')
     B = request.form.get('b')
     C = request.form.get('c')

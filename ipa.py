@@ -11,7 +11,7 @@ class IPA:
     def filtering_column(file_path):
         print("run filtering column...")
         result = pd.read_excel(file_path).drop(
-            columns=['Nim'])
+            columns=['NIM'])
         return result
 
     def validity_test(file_path, a, b, c, d, e):
